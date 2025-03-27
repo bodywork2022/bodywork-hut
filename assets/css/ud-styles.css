@@ -763,7 +763,7 @@ p {
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-  .ud-single-feature .ud-feature-icon {
+  .ud-single-feature .ud-tfeature-icon {
     display: none;
   }
 }
@@ -1532,6 +1532,12 @@ p {
   color: #f3f4fe;
   margin-bottom: 30px;
   max-width: 260px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .ud-widget .ud-widget-desc {
+    display: none;
+  }
 }
 
 .ud-widget .ud-widget-socials {
