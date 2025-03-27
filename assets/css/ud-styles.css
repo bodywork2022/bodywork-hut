@@ -868,11 +868,22 @@ p {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
+.ud-about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  max-width: 30%;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .ud-about-image {
+    display: none;
+    visibility: hidden;
     text-align: center;
   }
 }
+
 
 /* ===== Pricing CSS ===== */
 .ud-pricing {
@@ -1492,6 +1503,10 @@ p {
 
 .ud-widget {
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .ud-widget .ud-footer-logo {
