@@ -10,7 +10,7 @@
     if (window.scrollY > sticky) {
       ud_header.classList.add("sticky");
     } else {
-      ud_header.classList.remove("sticky");
+      ud_header.classList.add("sticky");
     }
 
     // === logo change
