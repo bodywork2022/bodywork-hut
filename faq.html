@@ -18,120 +18,30 @@ layout: default
         </div>
 
         <div class="row">
-            <div class="col-lg-6">
+            {% for section in site.data.faq %}
+            <div class="col-lg-12">
+                <h3 class="ml-1 mb-4">{{section.name}}</h2>
+                {% for faq in section.faqs %}
                 <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
                     <div class="accordion">
                         <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
                             <span class="icon flex-shrink-0">
                                 <i class="lni lni-chevron-down"></i>
                             </span>
-                            <span>What is a mobile sports massage therapist?</span>
+                            <span>{{faq.question}}</span>
                         </button>
                         <div id="collapseOne" class="accordion-collapse collapse">
                             <div class="ud-faq-body">
-                                A mobile sports massage therapist is a professional who provides therapeutic massage services at your location, whether it's your home, office, gym, or event.
-                                 This eliminates the need for travel and allows you to receive expert care in a comfortable setting. 
+                                {{faq.answer}}
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
-                    <div class="accordion">
-                        <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                            <span class="icon flex-shrink-0">
-                                <i class="lni lni-chevron-down"></i>
-                            </span>
-                            <span>Who can benefit from a sports massage? </span>
-                        </button>
-                        <div id="collapseTwo" class="accordion-collapse collapse">
-                            <div class="ud-faq-body">
-                                Sports massage isn’t just for athletes! It’s beneficial for anyone experiencing muscle tension, stiffness, soreness or pain due to exercise, work, or daily activities. It’s also great for injury prevention and recovery. 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
-                    <div class="accordion">
-                        <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                            <span class="icon flex-shrink-0">
-                                <i class="lni lni-chevron-down"></i>
-                            </span>
-                            <span>What are the benefits of sports massage?</span>
-                        </button>
-                        <div id="collapseThree" class="accordion-collapse collapse">
-                            <div class="ud-faq-body">
-                                <ol>
-                                    <li>Reduces muscle tension and soreness</li>
-                                    <li>Improves flexibility and range of motion</li>
-                                    <li>Enchances athletic performance and recovery</li>
-                                    <li>Helps prevent injuries</li>
-                                    <li>Promotes relaxation and stress relief</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
-            <div class="col-lg-6">
-                <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
-                    <div class="accordion">
-                        <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                            <span class="icon flex-shrink-0">
-                                <i class="lni lni-chevron-down"></i>
-                            </span>
-                            <span>Can I use this template for commercial project?</span>
-                        </button>
-                        <div id="collapseFour" class="accordion-collapse collapse">
-                            <div class="ud-faq-body">
-                                Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the industry's
-                                standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a
-                                type specimen book.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
-                    <div class="accordion">
-                        <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                            <span class="icon flex-shrink-0">
-                                <i class="lni lni-chevron-down"></i>
-                            </span>
-                            <span>Do you have plan releasing Play Pro?</span>
-                        </button>
-                        <div id="collapseFive" class="accordion-collapse collapse">
-                            <div class="ud-faq-body">
-                                Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the industry's
-                                standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a
-                                type specimen book.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
-                    <div class="accordion">
-                        <button class="ud-faq-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                            <span class="icon flex-shrink-0">
-                                <i class="lni lni-chevron-down"></i>
-                            </span>
-                            <span>Where and how to host this template?</span>
-                        </button>
-                        <div id="collapseSix" class="accordion-collapse collapse">
-                            <div class="ud-faq-body">
-                                Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the industry's
-                                standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a
-                                type specimen book.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
+
     </div>
 </section>
 <!-- ====== FAQ End ====== -->

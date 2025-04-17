@@ -1,0 +1,24 @@
+- name: 40 Minute Session
+  price: £35
+  description:
+    - Targeted relief for muscle issues.
+    - Great for pre/post-event.
+    - Focuses on key problem areas.
+    - Good for quick maintenance.
+    - Fits busy schedules.
+- name: 60 Minute Session
+  price: £40
+  description:
+    - Full-body assessment & treatment.
+    - Addresses multiple tight areas.
+    - Deeper tissue work included.
+    - Improves flexibility & circulation.
+    - Both therapeutic and relaxing.
+- name: 90 Minute Session
+  price: £50
+  description:
+    - In-depth muscle recovery.
+    - For multiple or chronic issues.
+    - Advanced techniques used.
+    - Boosts range of motion.
+    - Maximum therapeutic benefit.

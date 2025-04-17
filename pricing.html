@@ -11,34 +11,35 @@ layout: default
                 <div class="ud-section-title mx-auto text-center">
                     <span>Pricing</span>
                     <h2>Our Pricing Plans</h2>
+                    <p>We keep our pricing simple with no hidden fees. Our mobile and non mobile prices are exactly the same, and we don't charge for additional services such as an exercise program, assisted stretching, scraping or cupping.</p>
                 </div>
             </div>
         </div>
 
         <div class="row g-0 align-items-center justify-content-center">
+            {% for pricing in site.data.pricing %}
             <div class="col-lg-4 col-md-6 col-sm-10">
                 <div class="ud-single-pricing first-item wow fadeInUp" data-wow-delay=".15s">
                     <div class="ud-pricing-header">
-                        <h3>STARTING FROM</h3>
-                        <h4>$ 19.99/mo</h4>
+                        <h3>{{pricing.name}}</h3>
+                        <h4>{{pricing.price}}</h4>
                     </div>
                     <div class="ud-pricing-body">
                         <ul>
-                            <li>5 User</li>
-                            <li>All UI components</li>
-                            <li>Lifetime access</li>
-                            <li>Free updates</li>
-                            <li>Use on 1 (one) project</li>
-                            <li>4 Months support</li>
+                            {% for item in pricing.description %}
+                            <li>{{item}}</li>
+                            {% endfor %}
                         </ul>
                     </div>
                     <div class="ud-pricing-footer">
                         <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
-                            Purchase Now
+                            Book Now
                         </a>
                     </div>
                 </div>
             </div>
+            {% endfor %}
+            <!-- 
             <div class="col-lg-4 col-md-6 col-sm-10">
                 <div class="ud-single-pricing active wow fadeInUp" data-wow-delay=".1s">
                     <span class="ud-popular-tag">POPULAR</span>
@@ -58,7 +59,7 @@ layout: default
                     </div>
                     <div class="ud-pricing-footer">
                         <a href="javascript:void(0)" class="ud-main-btn ud-white-btn">
-                            Purchase Now
+                            Book Now
                         </a>
                     </div>
                 </div>
@@ -81,11 +82,12 @@ layout: default
                     </div>
                     <div class="ud-pricing-footer">
                         <a href="javascript:void(0)" class="ud-main-btn ud-border-btn">
-                            Purchase Now
+                            Book Now
                         </a>
                     </div>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </section>

@@ -1,0 +1,66 @@
+- name: General Questions
+  faqs:
+    - question: What is a mobile sports massage therapist?
+      answer: >
+        A mobile sports massage therapist is a professional who provides therapeutic
+        massage services at your location, whether it's your home, office, gym, or event.
+        This eliminates the need for travel and allows you to receive expert care in a comfortable setting.
+    - question: Who can benefit from a sports massage?
+      answer: >
+        Sports massage isn’t just for athletes! It’s beneficial for anyone experiencing
+        muscle tension, stiffness, soreness or pain due to exercise, work, or daily activities.
+        It’s also great for injury prevention and recovery.
+    - question: What are the benefits of sports massage?
+      answer: >
+        - Reduces muscle tension and soreness
+        - Improves flexibility and range of motion
+        - Enhances athletic performance and recovery
+        - Helps prevent injuries
+        - Promotes relaxation and stress relief
+
+- name: Booking and Appointments
+  faqs:
+    - question: How do I book a mobile sports massage?
+      answer: >
+        You can book an appointment by calling, texting, or using the online booking system on our website.
+        Advanced booking is recommended to secure your preferred time.
+    - question: What areas do you cover?
+      answer: |
+        We provide mobile sports massage services in Sheffield (including Sheffield city centre,
+        Hillsborough, Ecclesall, Dore & Totley, Crookes & Crosspool, Woodseats, Norton, Handsworth and Darnall).
+        We also travel to clients in Rotherham, Dronfield, Worksop, Leeds, Wakefield and Manchester.
+        If you're unsure whether we cover your location, feel free to contact us.
+    - question: Do I need to prepare anything before my appointment?
+      answer: >
+        Please have a quiet space with enough room for a massage table. Wear loose, comfortable clothing,
+        and stay hydrated before and after your session for the best results.
+
+- name: Pricing and Payment
+  faqs:
+    - question: What payment methods do you accept?
+      answer: >
+        We accept cash, contactless payments, bank transfers, and card payments for your convenience.
+    - question: Do you offer corporate or team packages?
+      answer: >
+        Yes! We provide corporate wellness programs and sports team massage services.
+        Contact us for group rates and custom packages.
+
+- name: Massage and Treatment
+  faqs:
+    - question: Is a sports massage painful?
+      answer: >
+        Sports massage can involve deep tissue techniques, which may cause mild discomfort,
+        especially if you have tight muscles. However, pressure is always adjusted to your comfort level
+        and will ease over the course of the massage.
+    - question: What should I wear during a sports massage?
+      answer: >
+        Loose clothing or sportswear is ideal. For deeper work, you may be asked to remove clothing,
+        but you will always be covered with towels.
+    - question: Can sports massage help with injuries?
+      answer: >
+        Yes! Sports massage can aid recovery from pains, strains, sprains, and other soft tissue injuries.
+    - question: How often should I get a sports massage?
+      answer: |
+        The frequency depends on your activity level and tightness. Most commonly, people begin weekly or bi-weekly
+        before moving on to monthly or bi-monthly maintenance treatments. This is determined by the severity of symptoms.
+        Please reach out and we can outline an initial treatment plan.
