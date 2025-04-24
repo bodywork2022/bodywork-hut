@@ -9,6 +9,13 @@ layout: default
                 <div class="ud-section-title mx-auto text-center">
                     <span>Blog</span>
                     <h2>Read our blogs</h2>
+                    <ul>
+                        {% for post in site.posts %}
+                          <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
                 </div>
             </div>
         </div>
