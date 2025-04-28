@@ -506,9 +506,16 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: var(--primary-color);
+  /*background: var(--primary-color); */
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  
+  url("/assets/images/hero/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   padding-top: 180px;
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ud-hero {
@@ -798,7 +805,7 @@ p {
 
 @media (max-width: 767px) {
   .ud-about {
-    padding: 80px 0;
+    padding: 120px 0;
   }
 }
 
@@ -900,7 +907,7 @@ p {
 
 @media (max-width: 767px) {
   .ud-pricing {
-    padding-top: 80px;
+    padding-top: 120px;
     padding-bottom: 40px;
   }
 }
@@ -1024,7 +1031,7 @@ p {
 
 @media (max-width: 767px) {
   .ud-faq {
-    padding-top: 80px;
+    padding-top: 120;
     padding-bottom: 50px;
   }
 }
@@ -1333,7 +1340,7 @@ p {
 
 @media (max-width: 767px) {
   .ud-contact {
-    padding: 80px 0;
+    padding: 120px 0;
   }
 }
 
