@@ -1,0 +1,4 @@
+# Jekyll config
+collections:
+  locations:
+    output: false # or false if you don’t want individual pages

@@ -15,5 +15,4 @@ At R1SE, you can also combine your massage with powerful recovery options includ
 Not sure which option is right for you? We recommend trying compression therapy - it pairs really well with massage and is a great all round choice to support recovery and pain relief.
 
 Find us here:
-
 📍 R1SE, Cornish Place, Kelham Island, Sheffield S6 3AF

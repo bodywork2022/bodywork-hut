@@ -898,7 +898,43 @@ p {
   }
 }
 
+/* Location */
 
+.ud-location-content ul{
+  list-style-type: disc;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.ud-location-content .tag {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white);
+  background: var(--primary-color);
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.ud-location-content h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .ud-location-content h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+
+.ud-location-content p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
 /* ===== Pricing CSS ===== */
 .ud-pricing {
   padding-top: 120px;
