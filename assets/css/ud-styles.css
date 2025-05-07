@@ -805,7 +805,8 @@ p {
 
 @media (max-width: 767px) {
   .ud-about {
-    padding: 120px 0;
+    padding-top: 120px; 
+    padding-bottom: 60px;
   }
 }
 
@@ -2681,4 +2682,19 @@ p {
     padding: 10px 20px;
   }
 }
+
+
+/* Custom Mobile */
+@media (max-width: 767px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .ud-about-content-wrapper {
+    padding: 25px 15px;
+  }
+}
 /*# sourceMappingURL=ud-styles.css.map */
+
+
