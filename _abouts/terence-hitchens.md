@@ -1,6 +1,7 @@
 ---
 title: Terence Hitchens
 label: About Me
+image: assets/images/team/terrence.jpg
 ---
 Hi I am Terence, a sports massage therapist and owner of Bodywork Hut. I have a vast range of experience with high level athletes, hyrox competitors, footballers and bodybuilders.
 
