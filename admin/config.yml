@@ -29,3 +29,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "about"
+    label: "About"
+    folder: "_abouts/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Label", name: "label", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
