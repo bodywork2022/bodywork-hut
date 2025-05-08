@@ -33,8 +33,10 @@ collections:
     label: "About"
     folder: "_abouts/"
     create: true
-    slug: "{{slug}}"
+    slug: "{{position}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Label", name: "label", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "string" }
+      - { label: "Position", name: "position", widget: "number"}
