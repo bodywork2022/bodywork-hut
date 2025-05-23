@@ -25,6 +25,7 @@ body {
   font-style: normal;
   color: var(--body-color);
   overflow-x: hidden;
+  min-height: 100svh;
 }
 
 * {
@@ -938,6 +939,7 @@ p {
 }
 /* ===== Pricing CSS ===== */
 .ud-pricing {
+  min-height: 80svh;
   padding-top: 120px;
   padding-bottom: 90px;
 }
