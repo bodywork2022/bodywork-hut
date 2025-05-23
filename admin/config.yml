@@ -1,7 +1,6 @@
 # Netlify CMS config
 backend:
-  name: github
-  repo: bodywork2022/bodywork-hut
+  name: git-gateway
   branch: main
 
 media_folder: "images/uploads"
