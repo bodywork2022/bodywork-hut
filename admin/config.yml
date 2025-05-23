@@ -1,7 +1,7 @@
 # Netlify CMS config
 backend:
   name: github
-  repo: cameron-rx/cameron-rx.github.io 
+  repo: bodywork2022/bodywork-hut
   branch: main
 
 media_folder: "images/uploads"
