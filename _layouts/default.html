@@ -12,8 +12,18 @@
 
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <!-- Primary Meta Tags -->
-    <meta name="title" content="The Bodywork Hut">
+    <meta name="title" content="The Bodywork Hut">relative
     <meta name="description" content="The Bodywork Hut">
+
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+    {% else %}
+    <meta name="description" content="
+            Bringing professional treatment directly to you at home, work, or your gym.
+            Say goodbye to stress, pain, and tension without the hassle of traveling.
+          ">
+    {% endif %}
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
